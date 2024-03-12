@@ -1,0 +1,12 @@
+Label Assignment:
+
+Assign labels to your latent representations based on the coordinates. You can use a mapping of coordinates to states to do this. For example, if an image's coordinates fall within the boundaries of Texas, assign it the label 'Texas'.
+Model Training:
+
+Choose a suitable classifier that can handle the multi-class classification task. This could be a Support Vector Machine (SVM), a Random Forest classifier, a neural network, or any other appropriate algorithm.
+Split your dataset into training and testing (validation) sets.
+Train your model using the latent representations as input features and the state labels as targets.
+Probability Estimation:
+
+After training, use your model to predict the state for a new image by first obtaining its latent representation.
+Ensure your model outputs a probability distribution over all states for each image. This is typically achieved by using a softmax layer in neural networks or by using probability calibration techniques for other types of classifiers.
