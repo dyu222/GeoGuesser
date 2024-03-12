@@ -3,3 +3,4 @@
 - If we use the streetview library, will have to convert to decimal notation first
 
 # US cities (simplemaps dir) from https://simplemaps.com/data/us-cities
+- this one is already in the right coordinate format
